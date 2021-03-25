@@ -1,0 +1,88 @@
+.part1 {
+    background-color: #ffd209;
+    color: #ff9109;
+    min-height: 450px;
+    padding: 10% 10% 5% 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+}
+
+.part1-text {
+    width: 100%;
+}
+
+.part1-text p {
+    margin-top: 4%;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.part2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10% 5%;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 70px;
+}
+
+.biere {
+    min-width: 250px;
+}
+
+.biere p {
+    margin: 5% 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.yanga,
+.primus,
+.turbo-king,
+.mutzig {
+    color: #ff9109;
+}
+
+.part2 span {
+    display: inline-block;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+.biere-1,
+.biere-2,
+.biere-5,
+.biere-6 {
+    background-color: #ff9109;
+}
+
+.biere-4 {
+    background-color: #000;
+}
+
+.biere-3 {
+    background-color: rgb(255, 196, 0);
+}
+
+.ngok {
+    color: rgb(255, 196, 0);
+}
+
+@media (min-width: 768px) {
+    .part1-text {
+        width: 50%;
+    }
+    .part1 {
+        padding: 10% 10% 5% 15%;
+    }
+    .part2 {
+        padding: 10% 15%;
+    }
+    .biere {
+        width: 28%;
+    }
+}

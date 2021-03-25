@@ -1,0 +1,128 @@
+.part1 {
+    background: url("./bar-209148_1920.jpg") center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.part1-overlay {
+    height: 100%;
+    background-color: rgba(151, 151, 151, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff9109;
+}
+
+.part1-text {
+    border: 6px solid #ff9109;
+    padding: 10% 6%;
+    border-radius: 50%;
+    text-align: center;
+    font-size: large;
+    font-size: 50px;
+}
+
+.part1-text h1 {
+    font-size: calc(15px + 0.6vw);
+    font-family: "Playfair Display";
+    margin-bottom: 15%;
+}
+
+.part1-text p {
+    font-weight: 500;
+    font-size: calc(10px + 1vw);
+}
+
+.part2 {
+    background-color: #ff9109;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #fff;
+    column-gap: 25px;
+}
+
+.part2-text {
+    padding: 5% 0;
+    text-align: center;
+}
+
+.part2 p {
+    margin: 4% auto;
+}
+
+.part2 img {
+    width: 80%;
+    height: auto;
+}
+
+.part2-text a {
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+}
+
+.part3 {
+    padding: 10%;
+    text-align: center;
+}
+
+.part3-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-bottom: 7%;
+}
+
+.part3-img img {
+    min-width: 150px;
+    width: 23%;
+    height: auto;
+}
+
+.part3 a {
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #000;
+}
+
+@media (min-width: 700px) {
+    .part2 {
+        padding: 4%;
+    }
+    .part2-text {
+        width: 40%;
+        padding: 0;
+        text-align: left;
+    }
+    .part2 img {
+        width: 35%;
+        height: auto;
+    }
+    .part2-text p {
+        width: 90%;
+        margin: 5% 0;
+    }
+}
+
+@media(min-width: 769px) {
+    .part3-img {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 4%;
+    }
+    .part3 h2 {
+        text-align: left;
+    }
+}
